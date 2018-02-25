@@ -1,0 +1,789 @@
+{
+  "cmake.buildDirectory": "${workspaceRoot}/.build",
+  "cmake.preferredGenerators": [
+    "Visual Studio 14 2015"
+  ],
+  "cmake.generator.windows": "Visual Studio 14 2015",
+  "codeModel": {
+    "configurations": [
+      {
+        "name": "Debug",
+        "projects": [
+          {
+            "buildDirectory": "C:/Users/altom/Documents/SnakeAI/build",
+            "hasInstallRule": false,
+            "minimumCMakeVersion": "2.6",
+            "name": "SnakeAI",
+            "sourceDirectory": "C:/Users/altom/Documents/SnakeAI",
+            "targets": [
+              {
+                "artifacts": [
+                  "C:/Users/altom/Documents/SnakeAI/build/Debug/Snakes.lib",
+                  "C:/Users/altom/Documents/SnakeAI/build/Debug/Snakes.lib",
+                  "C:/Users/altom/Documents/SnakeAI/build/Debug/Snakes.pdb"
+                ],
+                "buildDirectory": "C:/Users/altom/Documents/SnakeAI/build",
+                "fileGroups": [
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1  ",
+                    "includePath": [
+                      {
+                        "path": "C:/Users/altom/Documents/SnakeAI"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "Snakes/RandomSnake.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "Snakes.lib",
+                "isGeneratorProvided": false,
+                "linkFlags": "/machine:X86",
+                "linkerLanguage": "CXX",
+                "name": "Snakes",
+                "sourceDirectory": "C:/Users/altom/Documents/SnakeAI",
+                "type": "STATIC_LIBRARY"
+              },
+              {
+                "artifacts": [
+                  "C:/Users/altom/Documents/SnakeAI/build/Debug/Engine.lib",
+                  "C:/Users/altom/Documents/SnakeAI/build/Debug/Engine.lib",
+                  "C:/Users/altom/Documents/SnakeAI/build/Debug/Engine.pdb"
+                ],
+                "buildDirectory": "C:/Users/altom/Documents/SnakeAI/build",
+                "fileGroups": [
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1  ",
+                    "includePath": [
+                      {
+                        "path": "C:/Users/altom/Documents/SnakeAI"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "Engine/Game.cpp",
+                      "Engine/State.cpp",
+                      "Engine/Tile.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "Engine.lib",
+                "isGeneratorProvided": false,
+                "linkFlags": "/machine:X86",
+                "linkerLanguage": "CXX",
+                "name": "Engine",
+                "sourceDirectory": "C:/Users/altom/Documents/SnakeAI",
+                "type": "STATIC_LIBRARY"
+              },
+              {
+                "buildDirectory": "C:/Users/altom/Documents/SnakeAI/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/f45cddd167c3e01269980910e8391031/generate.stamp.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ZERO_CHECK",
+                "isGeneratorProvided": true,
+                "name": "ZERO_CHECK",
+                "sourceDirectory": "C:/Users/altom/Documents/SnakeAI",
+                "type": "UTILITY"
+              },
+              {
+                "artifacts": [
+                  "C:/Users/altom/Documents/SnakeAI/build/Debug/Displays.lib",
+                  "C:/Users/altom/Documents/SnakeAI/build/Debug/Displays.lib",
+                  "C:/Users/altom/Documents/SnakeAI/build/Debug/Displays.pdb"
+                ],
+                "buildDirectory": "C:/Users/altom/Documents/SnakeAI/build",
+                "fileGroups": [
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1  ",
+                    "includePath": [
+                      {
+                        "path": "C:/Users/altom/Documents/SnakeAI"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "Displays/ConsoleDisplay.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "Displays.lib",
+                "isGeneratorProvided": false,
+                "linkFlags": "/machine:X86",
+                "linkerLanguage": "CXX",
+                "name": "Displays",
+                "sourceDirectory": "C:/Users/altom/Documents/SnakeAI",
+                "type": "STATIC_LIBRARY"
+              },
+              {
+                "buildDirectory": "C:/Users/altom/Documents/SnakeAI/build",
+                "fullName": "ALL_BUILD",
+                "isGeneratorProvided": true,
+                "name": "ALL_BUILD",
+                "sourceDirectory": "C:/Users/altom/Documents/SnakeAI",
+                "type": "UTILITY"
+              },
+              {
+                "artifacts": [
+                  "C:/Users/altom/Documents/SnakeAI/build/Debug/Utils.lib",
+                  "C:/Users/altom/Documents/SnakeAI/build/Debug/Utils.lib",
+                  "C:/Users/altom/Documents/SnakeAI/build/Debug/Utils.pdb"
+                ],
+                "buildDirectory": "C:/Users/altom/Documents/SnakeAI/build",
+                "fileGroups": [
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1  ",
+                    "includePath": [
+                      {
+                        "path": "C:/Users/altom/Documents/SnakeAI"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "Utils/Keyboard.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "Utils.lib",
+                "isGeneratorProvided": false,
+                "linkFlags": "/machine:X86",
+                "linkerLanguage": "CXX",
+                "name": "Utils",
+                "sourceDirectory": "C:/Users/altom/Documents/SnakeAI",
+                "type": "STATIC_LIBRARY"
+              },
+              {
+                "artifacts": [
+                  "C:/Users/altom/Documents/SnakeAI/build/Debug/SnakeAI.exe",
+                  "C:/Users/altom/Documents/SnakeAI/build/Debug/SnakeAI.lib",
+                  "C:/Users/altom/Documents/SnakeAI/build/Debug/SnakeAI.pdb"
+                ],
+                "buildDirectory": "C:/Users/altom/Documents/SnakeAI/build",
+                "fileGroups": [
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1  ",
+                    "includePath": [
+                      {
+                        "path": "C:/Users/altom/Documents/SnakeAI"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "Main.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "SnakeAI.exe",
+                "isGeneratorProvided": false,
+                "linkFlags": "/machine:X86 /debug /INCREMENTAL /subsystem:console",
+                "linkLanguageFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1",
+                "linkLibraries": "Debug\\Engine.lib Debug\\Displays.lib Debug\\Snakes.lib Debug\\Utils.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+                "linkerLanguage": "CXX",
+                "name": "SnakeAI",
+                "sourceDirectory": "C:/Users/altom/Documents/SnakeAI",
+                "type": "EXECUTABLE"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Release",
+        "projects": [
+          {
+            "buildDirectory": "C:/Users/altom/Documents/SnakeAI/build",
+            "hasInstallRule": false,
+            "minimumCMakeVersion": "2.6",
+            "name": "SnakeAI",
+            "sourceDirectory": "C:/Users/altom/Documents/SnakeAI",
+            "targets": [
+              {
+                "artifacts": [
+                  "C:/Users/altom/Documents/SnakeAI/build/Release/Snakes.lib",
+                  "C:/Users/altom/Documents/SnakeAI/build/Release/Snakes.lib",
+                  "C:/Users/altom/Documents/SnakeAI/build/Release/Snakes.pdb"
+                ],
+                "buildDirectory": "C:/Users/altom/Documents/SnakeAI/build",
+                "fileGroups": [
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG  ",
+                    "includePath": [
+                      {
+                        "path": "C:/Users/altom/Documents/SnakeAI"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "Snakes/RandomSnake.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "Snakes.lib",
+                "isGeneratorProvided": false,
+                "linkFlags": "/machine:X86",
+                "linkerLanguage": "CXX",
+                "name": "Snakes",
+                "sourceDirectory": "C:/Users/altom/Documents/SnakeAI",
+                "type": "STATIC_LIBRARY"
+              },
+              {
+                "artifacts": [
+                  "C:/Users/altom/Documents/SnakeAI/build/Release/Engine.lib",
+                  "C:/Users/altom/Documents/SnakeAI/build/Release/Engine.lib",
+                  "C:/Users/altom/Documents/SnakeAI/build/Release/Engine.pdb"
+                ],
+                "buildDirectory": "C:/Users/altom/Documents/SnakeAI/build",
+                "fileGroups": [
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG  ",
+                    "includePath": [
+                      {
+                        "path": "C:/Users/altom/Documents/SnakeAI"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "Engine/Game.cpp",
+                      "Engine/State.cpp",
+                      "Engine/Tile.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "Engine.lib",
+                "isGeneratorProvided": false,
+                "linkFlags": "/machine:X86",
+                "linkerLanguage": "CXX",
+                "name": "Engine",
+                "sourceDirectory": "C:/Users/altom/Documents/SnakeAI",
+                "type": "STATIC_LIBRARY"
+              },
+              {
+                "buildDirectory": "C:/Users/altom/Documents/SnakeAI/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/f45cddd167c3e01269980910e8391031/generate.stamp.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ZERO_CHECK",
+                "isGeneratorProvided": true,
+                "name": "ZERO_CHECK",
+                "sourceDirectory": "C:/Users/altom/Documents/SnakeAI",
+                "type": "UTILITY"
+              },
+              {
+                "artifacts": [
+                  "C:/Users/altom/Documents/SnakeAI/build/Release/Displays.lib",
+                  "C:/Users/altom/Documents/SnakeAI/build/Release/Displays.lib",
+                  "C:/Users/altom/Documents/SnakeAI/build/Release/Displays.pdb"
+                ],
+                "buildDirectory": "C:/Users/altom/Documents/SnakeAI/build",
+                "fileGroups": [
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG  ",
+                    "includePath": [
+                      {
+                        "path": "C:/Users/altom/Documents/SnakeAI"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "Displays/ConsoleDisplay.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "Displays.lib",
+                "isGeneratorProvided": false,
+                "linkFlags": "/machine:X86",
+                "linkerLanguage": "CXX",
+                "name": "Displays",
+                "sourceDirectory": "C:/Users/altom/Documents/SnakeAI",
+                "type": "STATIC_LIBRARY"
+              },
+              {
+                "buildDirectory": "C:/Users/altom/Documents/SnakeAI/build",
+                "fullName": "ALL_BUILD",
+                "isGeneratorProvided": true,
+                "name": "ALL_BUILD",
+                "sourceDirectory": "C:/Users/altom/Documents/SnakeAI",
+                "type": "UTILITY"
+              },
+              {
+                "artifacts": [
+                  "C:/Users/altom/Documents/SnakeAI/build/Release/Utils.lib",
+                  "C:/Users/altom/Documents/SnakeAI/build/Release/Utils.lib",
+                  "C:/Users/altom/Documents/SnakeAI/build/Release/Utils.pdb"
+                ],
+                "buildDirectory": "C:/Users/altom/Documents/SnakeAI/build",
+                "fileGroups": [
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG  ",
+                    "includePath": [
+                      {
+                        "path": "C:/Users/altom/Documents/SnakeAI"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "Utils/Keyboard.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "Utils.lib",
+                "isGeneratorProvided": false,
+                "linkFlags": "/machine:X86",
+                "linkerLanguage": "CXX",
+                "name": "Utils",
+                "sourceDirectory": "C:/Users/altom/Documents/SnakeAI",
+                "type": "STATIC_LIBRARY"
+              },
+              {
+                "artifacts": [
+                  "C:/Users/altom/Documents/SnakeAI/build/Release/SnakeAI.exe",
+                  "C:/Users/altom/Documents/SnakeAI/build/Release/SnakeAI.lib",
+                  "C:/Users/altom/Documents/SnakeAI/build/Release/SnakeAI.pdb"
+                ],
+                "buildDirectory": "C:/Users/altom/Documents/SnakeAI/build",
+                "fileGroups": [
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG  ",
+                    "includePath": [
+                      {
+                        "path": "C:/Users/altom/Documents/SnakeAI"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "Main.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "SnakeAI.exe",
+                "isGeneratorProvided": false,
+                "linkFlags": "/machine:X86 /INCREMENTAL:NO /subsystem:console",
+                "linkLanguageFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG",
+                "linkLibraries": "Release\\Engine.lib Release\\Displays.lib Release\\Snakes.lib Release\\Utils.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+                "linkerLanguage": "CXX",
+                "name": "SnakeAI",
+                "sourceDirectory": "C:/Users/altom/Documents/SnakeAI",
+                "type": "EXECUTABLE"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "MinSizeRel",
+        "projects": [
+          {
+            "buildDirectory": "C:/Users/altom/Documents/SnakeAI/build",
+            "hasInstallRule": false,
+            "minimumCMakeVersion": "2.6",
+            "name": "SnakeAI",
+            "sourceDirectory": "C:/Users/altom/Documents/SnakeAI",
+            "targets": [
+              {
+                "artifacts": [
+                  "C:/Users/altom/Documents/SnakeAI/build/MinSizeRel/Snakes.lib",
+                  "C:/Users/altom/Documents/SnakeAI/build/MinSizeRel/Snakes.lib",
+                  "C:/Users/altom/Documents/SnakeAI/build/MinSizeRel/Snakes.pdb"
+                ],
+                "buildDirectory": "C:/Users/altom/Documents/SnakeAI/build",
+                "fileGroups": [
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O1 /Ob1 /DNDEBUG  ",
+                    "includePath": [
+                      {
+                        "path": "C:/Users/altom/Documents/SnakeAI"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "Snakes/RandomSnake.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "Snakes.lib",
+                "isGeneratorProvided": false,
+                "linkFlags": "/machine:X86",
+                "linkerLanguage": "CXX",
+                "name": "Snakes",
+                "sourceDirectory": "C:/Users/altom/Documents/SnakeAI",
+                "type": "STATIC_LIBRARY"
+              },
+              {
+                "artifacts": [
+                  "C:/Users/altom/Documents/SnakeAI/build/MinSizeRel/Engine.lib",
+                  "C:/Users/altom/Documents/SnakeAI/build/MinSizeRel/Engine.lib",
+                  "C:/Users/altom/Documents/SnakeAI/build/MinSizeRel/Engine.pdb"
+                ],
+                "buildDirectory": "C:/Users/altom/Documents/SnakeAI/build",
+                "fileGroups": [
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O1 /Ob1 /DNDEBUG  ",
+                    "includePath": [
+                      {
+                        "path": "C:/Users/altom/Documents/SnakeAI"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "Engine/Game.cpp",
+                      "Engine/State.cpp",
+                      "Engine/Tile.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "Engine.lib",
+                "isGeneratorProvided": false,
+                "linkFlags": "/machine:X86",
+                "linkerLanguage": "CXX",
+                "name": "Engine",
+                "sourceDirectory": "C:/Users/altom/Documents/SnakeAI",
+                "type": "STATIC_LIBRARY"
+              },
+              {
+                "buildDirectory": "C:/Users/altom/Documents/SnakeAI/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/f45cddd167c3e01269980910e8391031/generate.stamp.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ZERO_CHECK",
+                "isGeneratorProvided": true,
+                "name": "ZERO_CHECK",
+                "sourceDirectory": "C:/Users/altom/Documents/SnakeAI",
+                "type": "UTILITY"
+              },
+              {
+                "artifacts": [
+                  "C:/Users/altom/Documents/SnakeAI/build/MinSizeRel/Displays.lib",
+                  "C:/Users/altom/Documents/SnakeAI/build/MinSizeRel/Displays.lib",
+                  "C:/Users/altom/Documents/SnakeAI/build/MinSizeRel/Displays.pdb"
+                ],
+                "buildDirectory": "C:/Users/altom/Documents/SnakeAI/build",
+                "fileGroups": [
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O1 /Ob1 /DNDEBUG  ",
+                    "includePath": [
+                      {
+                        "path": "C:/Users/altom/Documents/SnakeAI"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "Displays/ConsoleDisplay.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "Displays.lib",
+                "isGeneratorProvided": false,
+                "linkFlags": "/machine:X86",
+                "linkerLanguage": "CXX",
+                "name": "Displays",
+                "sourceDirectory": "C:/Users/altom/Documents/SnakeAI",
+                "type": "STATIC_LIBRARY"
+              },
+              {
+                "buildDirectory": "C:/Users/altom/Documents/SnakeAI/build",
+                "fullName": "ALL_BUILD",
+                "isGeneratorProvided": true,
+                "name": "ALL_BUILD",
+                "sourceDirectory": "C:/Users/altom/Documents/SnakeAI",
+                "type": "UTILITY"
+              },
+              {
+                "artifacts": [
+                  "C:/Users/altom/Documents/SnakeAI/build/MinSizeRel/Utils.lib",
+                  "C:/Users/altom/Documents/SnakeAI/build/MinSizeRel/Utils.lib",
+                  "C:/Users/altom/Documents/SnakeAI/build/MinSizeRel/Utils.pdb"
+                ],
+                "buildDirectory": "C:/Users/altom/Documents/SnakeAI/build",
+                "fileGroups": [
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O1 /Ob1 /DNDEBUG  ",
+                    "includePath": [
+                      {
+                        "path": "C:/Users/altom/Documents/SnakeAI"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "Utils/Keyboard.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "Utils.lib",
+                "isGeneratorProvided": false,
+                "linkFlags": "/machine:X86",
+                "linkerLanguage": "CXX",
+                "name": "Utils",
+                "sourceDirectory": "C:/Users/altom/Documents/SnakeAI",
+                "type": "STATIC_LIBRARY"
+              },
+              {
+                "artifacts": [
+                  "C:/Users/altom/Documents/SnakeAI/build/MinSizeRel/SnakeAI.exe",
+                  "C:/Users/altom/Documents/SnakeAI/build/MinSizeRel/SnakeAI.lib",
+                  "C:/Users/altom/Documents/SnakeAI/build/MinSizeRel/SnakeAI.pdb"
+                ],
+                "buildDirectory": "C:/Users/altom/Documents/SnakeAI/build",
+                "fileGroups": [
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O1 /Ob1 /DNDEBUG  ",
+                    "includePath": [
+                      {
+                        "path": "C:/Users/altom/Documents/SnakeAI"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "Main.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "SnakeAI.exe",
+                "isGeneratorProvided": false,
+                "linkFlags": "/machine:X86 /INCREMENTAL:NO /subsystem:console",
+                "linkLanguageFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O1 /Ob1 /DNDEBUG",
+                "linkLibraries": "MinSizeRel\\Engine.lib MinSizeRel\\Displays.lib MinSizeRel\\Snakes.lib MinSizeRel\\Utils.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+                "linkerLanguage": "CXX",
+                "name": "SnakeAI",
+                "sourceDirectory": "C:/Users/altom/Documents/SnakeAI",
+                "type": "EXECUTABLE"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "RelWithDebInfo",
+        "projects": [
+          {
+            "buildDirectory": "C:/Users/altom/Documents/SnakeAI/build",
+            "hasInstallRule": false,
+            "minimumCMakeVersion": "2.6",
+            "name": "SnakeAI",
+            "sourceDirectory": "C:/Users/altom/Documents/SnakeAI",
+            "targets": [
+              {
+                "artifacts": [
+                  "C:/Users/altom/Documents/SnakeAI/build/RelWithDebInfo/Snakes.lib",
+                  "C:/Users/altom/Documents/SnakeAI/build/RelWithDebInfo/Snakes.lib",
+                  "C:/Users/altom/Documents/SnakeAI/build/RelWithDebInfo/Snakes.pdb"
+                ],
+                "buildDirectory": "C:/Users/altom/Documents/SnakeAI/build",
+                "fileGroups": [
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG  ",
+                    "includePath": [
+                      {
+                        "path": "C:/Users/altom/Documents/SnakeAI"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "Snakes/RandomSnake.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "Snakes.lib",
+                "isGeneratorProvided": false,
+                "linkFlags": "/machine:X86",
+                "linkerLanguage": "CXX",
+                "name": "Snakes",
+                "sourceDirectory": "C:/Users/altom/Documents/SnakeAI",
+                "type": "STATIC_LIBRARY"
+              },
+              {
+                "artifacts": [
+                  "C:/Users/altom/Documents/SnakeAI/build/RelWithDebInfo/Engine.lib",
+                  "C:/Users/altom/Documents/SnakeAI/build/RelWithDebInfo/Engine.lib",
+                  "C:/Users/altom/Documents/SnakeAI/build/RelWithDebInfo/Engine.pdb"
+                ],
+                "buildDirectory": "C:/Users/altom/Documents/SnakeAI/build",
+                "fileGroups": [
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG  ",
+                    "includePath": [
+                      {
+                        "path": "C:/Users/altom/Documents/SnakeAI"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "Engine/Game.cpp",
+                      "Engine/State.cpp",
+                      "Engine/Tile.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "Engine.lib",
+                "isGeneratorProvided": false,
+                "linkFlags": "/machine:X86",
+                "linkerLanguage": "CXX",
+                "name": "Engine",
+                "sourceDirectory": "C:/Users/altom/Documents/SnakeAI",
+                "type": "STATIC_LIBRARY"
+              },
+              {
+                "buildDirectory": "C:/Users/altom/Documents/SnakeAI/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/f45cddd167c3e01269980910e8391031/generate.stamp.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ZERO_CHECK",
+                "isGeneratorProvided": true,
+                "name": "ZERO_CHECK",
+                "sourceDirectory": "C:/Users/altom/Documents/SnakeAI",
+                "type": "UTILITY"
+              },
+              {
+                "artifacts": [
+                  "C:/Users/altom/Documents/SnakeAI/build/RelWithDebInfo/Displays.lib",
+                  "C:/Users/altom/Documents/SnakeAI/build/RelWithDebInfo/Displays.lib",
+                  "C:/Users/altom/Documents/SnakeAI/build/RelWithDebInfo/Displays.pdb"
+                ],
+                "buildDirectory": "C:/Users/altom/Documents/SnakeAI/build",
+                "fileGroups": [
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG  ",
+                    "includePath": [
+                      {
+                        "path": "C:/Users/altom/Documents/SnakeAI"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "Displays/ConsoleDisplay.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "Displays.lib",
+                "isGeneratorProvided": false,
+                "linkFlags": "/machine:X86",
+                "linkerLanguage": "CXX",
+                "name": "Displays",
+                "sourceDirectory": "C:/Users/altom/Documents/SnakeAI",
+                "type": "STATIC_LIBRARY"
+              },
+              {
+                "buildDirectory": "C:/Users/altom/Documents/SnakeAI/build",
+                "fullName": "ALL_BUILD",
+                "isGeneratorProvided": true,
+                "name": "ALL_BUILD",
+                "sourceDirectory": "C:/Users/altom/Documents/SnakeAI",
+                "type": "UTILITY"
+              },
+              {
+                "artifacts": [
+                  "C:/Users/altom/Documents/SnakeAI/build/RelWithDebInfo/Utils.lib",
+                  "C:/Users/altom/Documents/SnakeAI/build/RelWithDebInfo/Utils.lib",
+                  "C:/Users/altom/Documents/SnakeAI/build/RelWithDebInfo/Utils.pdb"
+                ],
+                "buildDirectory": "C:/Users/altom/Documents/SnakeAI/build",
+                "fileGroups": [
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG  ",
+                    "includePath": [
+                      {
+                        "path": "C:/Users/altom/Documents/SnakeAI"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "Utils/Keyboard.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "Utils.lib",
+                "isGeneratorProvided": false,
+                "linkFlags": "/machine:X86",
+                "linkerLanguage": "CXX",
+                "name": "Utils",
+                "sourceDirectory": "C:/Users/altom/Documents/SnakeAI",
+                "type": "STATIC_LIBRARY"
+              },
+              {
+                "artifacts": [
+                  "C:/Users/altom/Documents/SnakeAI/build/RelWithDebInfo/SnakeAI.exe",
+                  "C:/Users/altom/Documents/SnakeAI/build/RelWithDebInfo/SnakeAI.lib",
+                  "C:/Users/altom/Documents/SnakeAI/build/RelWithDebInfo/SnakeAI.pdb"
+                ],
+                "buildDirectory": "C:/Users/altom/Documents/SnakeAI/build",
+                "fileGroups": [
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG  ",
+                    "includePath": [
+                      {
+                        "path": "C:/Users/altom/Documents/SnakeAI"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "Main.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "SnakeAI.exe",
+                "isGeneratorProvided": false,
+                "linkFlags": "/machine:X86 /debug /INCREMENTAL /subsystem:console",
+                "linkLanguageFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG",
+                "linkLibraries": "RelWithDebInfo\\Engine.lib RelWithDebInfo\\Displays.lib RelWithDebInfo\\Snakes.lib RelWithDebInfo\\Utils.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+                "linkerLanguage": "CXX",
+                "name": "SnakeAI",
+                "sourceDirectory": "C:/Users/altom/Documents/SnakeAI",
+                "type": "EXECUTABLE"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cookie": "0.10725634299568632",
+    "inReplyTo": "codemodel",
+    "type": "reply"
+  },
+  "variant": {
+    "label": "Debug",
+    "keywordSettings": {
+      "buildType": "debug"
+    },
+    "description": "Emit debug information without performing optimizations"
+  }
+}
